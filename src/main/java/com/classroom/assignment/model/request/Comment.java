@@ -4,12 +4,12 @@ public class Comment {
 
   private String name;
   private String content;
-  private String address;
+  private String mail;
 
   public Comment(String name, String content, String address) {
     this.setName(name);
     this.setContent(content);
-    this.setAddress(address);
+    this.setMail(mail);
   }
 
   public String getName() {
@@ -28,11 +28,11 @@ public class Comment {
     this.content = content;
   }
 
-  public String getAddress() {
-    return address;
+  public String getMail() {
+    return mail;
   }
 
-  public void setAddress(String address) {
-    this.address = address;
+  public void setMail(String mail) {
+    this.mail = mail;
   }
 }

@@ -22,7 +22,7 @@ public class Step3Controller {
     model.addAttribute("content", comment.getContent());
     // 課題 level2 step3
     // メールアドレスの項目を追加してください。
-    model.addAttribute("address", comment.getAddress());
+    model.addAttribute("mail", comment.getMail());
     return "step3/confirm";
   }
 }
